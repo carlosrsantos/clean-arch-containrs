@@ -1,0 +1,7 @@
+﻿services:
+  containrs.webapp:
+    image: containrs.webapp
+    build:
+      context: .
+      dockerfile: ContainRs.WebApp/Dockerfile
+
